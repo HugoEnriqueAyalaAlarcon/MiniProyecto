@@ -1,0 +1,178 @@
+* {
+  /*border: 1px solid black;*/
+  box-sizing: content-box;
+  /*tomar medidas desde bordes*/
+}
+
+/*-----------------------------caja principal con body inicio*/
+.body {
+  /*background-color: rgb(168, 168, 168);*/
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.principal {
+  /*border: 1px solid purple;*/
+  max-width: 969px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
+}
+
+/*-----------------------------caja principal con body fin*/
+
+/*----------------------------fin de inicio*/
+
+
+
+.Classic {
+  margin-top: 49px;
+}
+
+.cajap {
+  display: flex;
+}
+
+.puntos {
+  margin-top: 12px;
+}
+
+.parrafo1 {
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  /*background-color: aqua;*/
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f4f4f;
+  width: 592px;
+  left: 261px;
+}
+
+.img {
+  /*medidas de la imagen*/
+  width: 969px;
+  height: 470px;
+  border-radius: 12px;
+  /*----------------------------fin de div1*/
+}
+
+.div2 {
+  /*-------------------------------configuracion caja div2*/
+  display: flex;
+  justify-content: space-between;
+  width: 969px;
+  margin-top: 48px;
+}
+
+.Ingredients {
+  /*----------------caja de ingredientes*/
+  width: 581px;
+}
+
+.retangulo_logos {
+  /*-------caja de logos*/
+  display: flex;
+  /*elementos flex*/
+  flex-direction: column;
+  /* en direcion columnas*/
+  justify-content: space-around;
+  /*separa iconos*/
+  width: 216px;
+  height: 367px;
+  box-shadow: 0px 0px 20px rgba(91, 63, 63, 0.2);
+  border-radius: 12px;
+}
+
+.logo1 {
+  margin-left: 43px;
+  display: flex;
+  width: 122px;
+  height: 34px;
+}
+
+.textologo {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: #bdbdbd;
+  margin-left: 14px;
+}
+
+.textColorNaranja {
+  color: orange;
+  font-size: 12px;
+}
+
+.textColor {
+  font-style: medium;
+  fill: solid;
+  color: #333;
+  font-size: 12px;
+}
+
+/*-------fin caja de logos*************************/
+
+/************************caja ingredientes**********/
+.cajatextingredientes {
+  /*caja rectangulo y texto*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.TextIngredientes {
+  font: 700;
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #333;
+  width: 554px;
+}
+
+.rectanguloCheckList {
+  /*rectangulo checklist*/
+  box-sizing: border-box;
+  border: 1px solid #828282;
+  margin-top: 20px;
+  width: 21px;
+  height: 21px;
+  border-radius: 4px;
+}
+
+h2 {
+  font-weight: normal;
+  /*/ quita negrita de titulo*/
+}
+
+/************************fin caja ingredientes**********/
+
+/********************Intruciones*********************/
+.cajaInstructions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectanguloInstructions {
+  margin-top: 15px;
+  width: 36px;
+  height: 36px;
+  background-color: #f2994a;
+  border-radius: 6px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.TextInstructions {
+  width: 528px;
+}
+
+footer {
+  /*pie de pagina*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
